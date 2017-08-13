@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-service
+  profiles:
+    active: dev
+    
+    
+  cloud:
+    config: 
+      uri: http://128.199.121.43:8888    
